@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Mchar</string>
+    <string name="dialogue">对话</string>
+    <string name="broadcast">广播</string>
+    <string name="friend">好友</string>
+    <string name="visit_card">名片</string>
+</resources>
