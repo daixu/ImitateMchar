@@ -68,8 +68,8 @@ public class MainActivity extends TabActivity implements TabHost.OnTabChangeList
     Intent intent = new Intent(this, FriendActivity.class);
 
     mTabHost.addTab(mTabHost.newTabSpec("friend")
-        .setIndicator(getString(R.string.friend),
-            getResources().getDrawable(R.drawable.tab_bottom_icon_friend_hover)).setContent(intent));
+        .setIndicator(getString(R.string.friend), getResources().getDrawable(R.drawable.tab_bottom_icon_friend_hover))
+        .setContent(intent));
   }
 
   private void setupVisitCardTab() {
